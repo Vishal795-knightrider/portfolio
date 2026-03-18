@@ -30,7 +30,7 @@ function Projects() {
               title="Pollify"
               description="Pollify is a real-time polling web application where users can create polls and vote instantly. The project is built using React and Firebase, providing live updates and a smooth user experience."
               ghLink="https://github.com/Vishal795-knightrider/Pollify"
-              demoLink="pollify-e197f.web.app" 
+              demoLink="https://pollify-e197f.web.app" 
             />
           </Col>
 
