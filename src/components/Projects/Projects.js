@@ -3,34 +3,37 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-// 👉 Apne restaurant project ki image yaha add karo
-// Example: ../../Assets/Projects/restaurant.png
+// ✅ Image path correct
 import pollify from "../../Assets/Projects/pollify.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
+
       <Container>
         <h1 className="project-heading">
           My <strong className="purple">Projects</strong>
         </h1>
 
         <p style={{ color: "white" }}>
-          Here is a project I built during my first semester.
+          Here are some of the projects I have built.
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          {/* ✅ Pollify Project */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pollify}
               isBlog={false}
               title="Pollify"
-              description="A basic restaurant website built using HTML and CSS as part of my first semester project. The website includes multiple pages such as menu categories (appetizers, beverages, desserts) with a clean layout and simple styling."
+              description="Pollify is a real-time polling web application where users can create polls and vote instantly. The project is built using React and Firebase, providing live updates and a smooth user experience."
               ghLink="https://github.com/Vishal795-knightrider/Pollify"
-              // demoLink=""  // demo tab add karna jab deploy ho jaye
+              demoLink="pollify-e197f.web.app" 
             />
           </Col>
+
         </Row>
       </Container>
     </Container>
