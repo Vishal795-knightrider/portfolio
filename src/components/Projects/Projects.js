@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 // 👉 Apne restaurant project ki image yaha add karo
 // Example: ../../Assets/Projects/restaurant.png
-import restaurant from "../../Assets/Projects/restaurant.png";
+import pollify from "../../Assets/Projects/pollify.png";
 
 function Projects() {
   return (
@@ -23,11 +23,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={restaurant}
+              imgPath={pollify}
               isBlog={false}
-              title="Restaurant Website"
+              title="Pollify"
               description="A basic restaurant website built using HTML and CSS as part of my first semester project. The website includes multiple pages such as menu categories (appetizers, beverages, desserts) with a clean layout and simple styling."
-              ghLink="https://github.com/Vishal795-knightrider/Techy-Web"
+              ghLink="https://github.com/Vishal795-knightrider/Pollify"
               // demoLink=""  // demo tab add karna jab deploy ho jaye
             />
           </Col>
