@@ -5,6 +5,7 @@ import Particle from "../Particle";
 
 // ✅ Image path correct
 import pollify from "../../Assets/Projects/pollify.png";
+import resume from "../../Assets/Projects/Resume.png";
 
 function Projects() {
   return (
@@ -32,6 +33,17 @@ function Projects() {
               ghLink="https://github.com/Vishal795-knightrider/Pollify"
               demoLink="https://pollify-e197f.web.app" 
             />
+          </Col>
+
+          <Col md={4} className="project-card">
+           <ProjectCard
+             imgPath={resume}
+            isBlog={false}
+            title="Resume Scoring System"
+            description="An intelligent web application that evaluates how well a candidate's resume matches a job description using Machine Learning techniques like TF-IDF and Cosine Similarity."
+            ghLink="https://github.com/Vishal795-knightrider/nlp-resume-scoring-system"
+            demoLink="https://nlp-resume-scoring-system.onrender.com/"
+           />
           </Col>
 
         </Row>
